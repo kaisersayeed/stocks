@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import stocksReducer from './stocks';
-import stockSummary from './stockSummary'
+import companyInfo from './companyInfo';
+import employees from './employees'
 
 export default combineReducers({
-  stocks: stocksReducer,
-  stockSummary: stockSummary
+  companyInfo: companyInfo,
+  employees: employees
 });

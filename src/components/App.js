@@ -1,8 +1,12 @@
-import React from 'react'
-import LogSummaryContainer from '../containers/LogSummary'
+import React from 'react';
+import HeaderContainer from '../containers/HeaderContainer';
+import EmployeesGridContainer from '../containers/EmployeesGridContainer';
 
 const App = () => (
-  <LogSummaryContainer/>
+    <div>
+      <HeaderContainer/>
+      <EmployeesGridContainer/>
+    </div>
 );
 
 export default App;
